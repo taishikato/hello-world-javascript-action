@@ -8,7 +8,7 @@ try {
   console.log(`Hello ${nameToGreet}!`);
 
   try {
-    fs.writeFileSync("./output.txt", nameToGreet);
+    fs.writeFileSync("./handler.ts", nameToGreet);
 
     console.log("write end");
   } catch (e) {
